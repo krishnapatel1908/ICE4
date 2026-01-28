@@ -30,6 +30,12 @@ public class krishnaICE4 {
         }
         return (double) a / b;
     }
+    
+    /*This method is created inside feature */
+    public int square(int a) {
+    return a * a;
+}
+
 
     public static void main(String[] args) {
         krishnaICE4 calc = new krishnaICE4();
@@ -37,6 +43,7 @@ public class krishnaICE4 {
         System.out.println("Subtract: " + calc.subtract(5, 3));
         System.out.println("Multiply: " + calc.multiply(5, 3));
         System.out.println("Divide: " + calc.divide(10, 2));
+        System.out.println("Square: " + calc.square(4));
     }
 }
 
